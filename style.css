@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body{
     height: 95vh;
     width: 95vw;
@@ -5,4 +10,40 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    font-family: 'Russo One', sans-serif;
 }
+
+.background{
+    background-color: palevioletred;
+    position: fixed;
+    z-index: -1;
+}
+
+.screen{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: gray;
+    padding: 30px 15px 80px 15px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 1px rgb(190, 190, 190);
+}
+
+.screen h1 {
+    color: rgb(58, 17, 243);
+    text-shadow: -3px -2px 1px #CE5937;
+    font-size: 50px;
+}
+
+.screen button{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-content: space-around;
+    padding: 15px;
+    list-style: none;
+}
+
+
+
