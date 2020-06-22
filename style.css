@@ -25,9 +25,14 @@ body{
     text-align: center;
     flex-direction: column;
     background-color: gray;
-    padding: 30px 15px 80px 15px;
+    padding: 30px 15px 50px 15px;
     border-radius: 15px;
     box-shadow: 10px 10px 1px rgb(190, 190, 190);
+    margin-top: 25px;
+}
+
+.screen canvas{
+    margin: 15px;
 }
 
 .screen h1 {
@@ -36,14 +41,36 @@ body{
     font-size: 50px;
 }
 
-.screen button{
+.screen .controls{
     display: flex;
-    justify-content: center;
     flex-direction: row;
-    align-content: space-around;
-    padding: 15px;
-    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 0 0 0;
+    list-style-type: none;
 }
 
+.screen button{
+    width: 120px;
+    justify-self: center;
+    padding: 15px;
+    background-color: grey;
+    color: black;
+    font-size: 25px;
+    font-weight: 800;
+    text-transform: lowercase;
+    border-width: 12px;
+    text-decoration-line: none;
+}
+
+
+.screen button:hover{
+    border: 2px outset rgb(78, 78, 78);
+    border-width: 12px;
+}
+
+.screen .up .down{
+    align-self: center;
+}
 
 
